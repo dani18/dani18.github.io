@@ -31,6 +31,10 @@ p.footer_text {
     padding-bottom: 1%;
 }
 
-#languages, button {
+#languages {
     margin-bottom: 2%;
+}
+
+button {
+    margin-bottom: 5%;
 }
