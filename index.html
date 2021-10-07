@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Dani</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="resources/css/app.css" rel="stylesheet" type="text/css">
-  <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="resources/css/w3.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="resources/js/app.js" rel="script" type="application/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Dani</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="resources/css/app.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/w3.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="resources/js/app.js" rel="script" type="application/javascript"></script>
 
-  <!-- Production version -->
+    <!-- Production version -->
 
-  <style>
-    body {
-      font-family: "Montserrat", sans-serif
-    }
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif
+        }
 
-    .w3-row-padding img {
-      margin-bottom: 12px
-    }
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
 
-    /* Set the width of the sidebar to 120px */
-    .w3-sidebar {
-      width: 120px;
-      background: #222;
-    }
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
 
-    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {
-      margin-left: 120px
-    }
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {
+            margin-left: 120px
+        }
 
-    /* Remove margins from "page content" on small screens */
-    @media only screen and (max-width: 600px) {
-      #main {
-        margin-left: 0
-      }
-    }
-  </style>
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
 </head>
 <body class="w3-black" cz-shortcut-listen="true">
 <!--<div class="lang">-->
@@ -118,173 +118,160 @@
 <!--  </div>&lt;!&ndash;  /.select &ndash;&gt;-->
 <!--</div>&lt;!&ndash; Icon Bar (Sidebar - hidden on small screens) &ndash;&gt;-->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <br>
-  <br>
-  <a href="#"
-     class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>{{__('home.home')}}</p>
-  </a>
-  <a href="#about"
-     class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>{{__('home.about')}}</p>
-  </a>
-  <a href="#photos"
-     class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>{{__('home.photos')}}</p>
-  </a>
-  <a href="#contact"
-     class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>{{__('home.contact')}}</p>
-  </a>
+    <br>
+    <br>
+    <a href="#"
+       class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+    <a href="#about"
+       class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+    </a>
+<!--    <a href="#photos"-->
+<!--       class="w3-bar-item w3-button w3-padding-large w3-hover-black">-->
+<!--        <i class="fa fa-eye w3-xxlarge"></i>-->
+<!--        <p>PORTFOLIO</p>-->
+<!--    </a>-->
+    <a href="#contact"
+       class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+    </a>
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button"
-       style="width:25% !important">{{__('home.home')}}</a>
-    <a href="#about"
-       class="w3-bar-item w3-button" style="width:25% !important">{{__('home.about')}}</a>
-    <a href="#photos"
-       class="w3-bar-item w3-button" style="width:25% !important">{{__('home.photos')}}</a>
-    <a href="#contact"
-       class="w3-bar-item w3-button" style="width:25% !important">{{__('home.contact')}}</a>
-  </div>
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button"
+           style="width:25% !important">HOME</a>
+        <a href="#about"
+           class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+<!--        <a href="#photos"-->
+<!--           class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>-->
+        <a href="#contact"
+           class="w3-bar-item w3-button" style="width:25% !important">{{__('home.contact')}}</a>
+    </div>
 </div>
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">{{__('home.im')}} </span>Daniel Porras Torres</h1>
-    <p>{{__('home.sme')}}</p>
-    <img src="resources/images/JD_files/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
-  </header>
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm </span>Daniel Porras Torres</h1>
+        <p>a Web Developer with experience in APIs and database connectivity</p>
+        <img src="resources/images/JD_files/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    </header>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">{{__('home.aboutme')}}</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">{{__('home.myskills')}}</h3>
-    <p class="w3-wide">{{__('home.sl')}}</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">About Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>
+            I am a fast learner and a hard working person, who has acquired his knowledge through the study of Development of Web Applications at HNC level, also I have worked as intern due to my degree. I am eager to be challenged and improve my skills and knowledge.
+            I am used to teamwork because of many works and projects I did through my education, however I have worked on my own on my intern periods, so I can work on both types of environment.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">{{__('home.myskills')}}</h3>
+        <p class="w3-wide">{{__('home.sl')}}</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+        </div>
+        <p class="w3-wide">PHP</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+        </div>
+        <p class="w3-wide">Java</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+        </div>
+        <p class="w3-wide">JavaScript</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:55%"></div>
+        </div>
+        <p class="w3-wide">Python</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+        </div>
+        <br>
+        <h3 class="w3-padding-16 w3-text-light-grey">{{__('home.mylang')}}</h3>
+        <p class="w3-wide">{{__('home.sp')}}</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+        </div>
+        <p class="w3-wide">{{__('home.ca')}}</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+        </div>
+        <p class="w3-wide">{{__('home.en')}}</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+        </div>
+        <br>
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <i class="fa fa-download"></i>{{__('home.dr')}}
+        </button>
     </div>
-    <p class="w3-wide">PHP</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+
+    <!--  &lt;!&ndash; Portfolio Section &ndash;&gt;-->
+    <!--  <div class="w3-padding-64 w3-content" id="photos">-->
+    <!--    <h2 class="w3-text-light-grey">{{__('home.mywork')}}</h2>-->
+    <!--    <hr style="width:200px" class="w3-opacity">-->
+
+    <!--    &lt;!&ndash; Grid for photos &ndash;&gt;-->
+    <!--    <div class="w3-row-padding" style="margin:0 -16px">-->
+    <!--      <div class="w3-half">-->
+    <!--        <img src="{{asset('images/JD_files/wedding.jpg')}}" style="width:100%">-->
+    <!--        <img src="{{asset('images/JD_files/rocks.jpg')}}" style="width:100%">-->
+    <!--        <img src="{{asset('images/JD_files/sailboat.jpg')}}" style="width:100%">-->
+    <!--      </div>-->
+
+    <!--      <div class="w3-half">-->
+    <!--        <img src="{{asset('images/JD_files/underwater.jpg')}}" style="width:100%">-->
+    <!--        <img src="{{asset('images/JD_files/chef.jpg')}}" style="width:100%">-->
+    <!--        <img src="{{asset('images/JD_files/wedding.jpg')}}" style="width:100%">-->
+    <!--        <img src="{{asset('images/JD_files/p6.jpg')}}" style="width:100%">-->
+    <!--      </div>-->
+    <!--      &lt;!&ndash; End photo grid &ndash;&gt;-->
+    <!--    </div>-->
+    <!--    &lt;!&ndash; End Portfolio Section &ndash;&gt;-->
+    <!--  </div>-->
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">{{__('home.contactme')}}</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> {{__('home.loc')}}</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +34 657455853</p>
+            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>danielporras99@gmail.com
+            </p>
+        </div>
     </div>
-    <p class="w3-wide">Java</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-    </div>
-    <p class="w3-wide">JavaScript</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:55%"></div>
-    </div>
-    <p class="w3-wide">Python</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
-    </div>
-    <br>
-    <h3 class="w3-padding-16 w3-text-light-grey">{{__('home.mylang')}}</h3>
-    <p class="w3-wide">{{__('home.sp')}}</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:100%"></div>
-    </div>
-    <p class="w3-wide">{{__('home.ca')}}</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">{{__('home.en')}}</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
-    </div>
-    <br>
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i>{{__('home.dr')}}
-    </button>
-  </div>
 
-<!--  &lt;!&ndash; Portfolio Section &ndash;&gt;-->
-<!--  <div class="w3-padding-64 w3-content" id="photos">-->
-<!--    <h2 class="w3-text-light-grey">{{__('home.mywork')}}</h2>-->
-<!--    <hr style="width:200px" class="w3-opacity">-->
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">{{__('home.w3')}}<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                                                 class="w3-hover-text-green">w3.css</a></p>
+        <p class="w3-medium">
+            {{__('home.copy')}}
+            <script>
+                document.write("<br>");
+                document.write('&copy;');
+                document.write('danielporrastorres.es');
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021 - ");
+                document.write(new Date().getFullYear());
+            </script>
 
-<!--    &lt;!&ndash; Grid for photos &ndash;&gt;-->
-<!--    <div class="w3-row-padding" style="margin:0 -16px">-->
-<!--      <div class="w3-half">-->
-<!--        <img src="{{asset('images/JD_files/wedding.jpg')}}" style="width:100%">-->
-<!--        <img src="{{asset('images/JD_files/rocks.jpg')}}" style="width:100%">-->
-<!--        <img src="{{asset('images/JD_files/sailboat.jpg')}}" style="width:100%">-->
-<!--      </div>-->
+        </p>
 
-<!--      <div class="w3-half">-->
-<!--        <img src="{{asset('images/JD_files/underwater.jpg')}}" style="width:100%">-->
-<!--        <img src="{{asset('images/JD_files/chef.jpg')}}" style="width:100%">-->
-<!--        <img src="{{asset('images/JD_files/wedding.jpg')}}" style="width:100%">-->
-<!--        <img src="{{asset('images/JD_files/p6.jpg')}}" style="width:100%">-->
-<!--      </div>-->
-<!--      &lt;!&ndash; End photo grid &ndash;&gt;-->
-<!--    </div>-->
-<!--    &lt;!&ndash; End Portfolio Section &ndash;&gt;-->
-<!--  </div>-->
+        <!-- End footer -->
+    </footer>
 
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">{{__('home.contactme')}}</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> {{__('home.loc')}}</p>
-      {{--            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +34 151515</p>--}}
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>{{__('home.mail')}}
-        danielporras99@gmail.com</p>
-    </div>
-    {{--        <p>Let's get in touch. Send me a message:</p>--}}
-    {{--        <form action="https://www.w3schools.com/action_page.php" target="_blank">--}}
-    {{--            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required="" name="Name"></p>--}}
-    {{--            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required="" name="Email"></p>--}}
-    {{--            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required="" name="Subject"></p>--}}
-    {{--            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required="" name="Message"></p>--}}
-    {{--            <p>--}}
-      {{--                <button class="w3-button w3-light-grey w3-padding-large" type="submit">--}}
-        {{--                    <i class="fa fa-paper-plane"></i> SEND MESSAGE--}}
-        {{--                </button>--}}
-      {{--            </p>--}}
-    {{--        </form>--}}
-    <!-- End Contact Section -->
-  </div>
-
-  <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">{{__('home.w3')}}<a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
-                                             class="w3-hover-text-green">w3.css</a></p>
-    <p class="w3-medium">
-      {{__('home.copy')}}
-      <script language="JavaScript">
-        <!--
-        document.write("<br>");
-        document.write('&copy;');
-        document.write('danielporrastorres.es');
-        document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021 - ");
-        document.write(new Date().getFullYear());
-        //-->
-      </script>
-
-    </p>
-
-    <!-- End footer -->
-  </footer>
-
-  <!-- END PAGE CONTENT -->
+    <!-- END PAGE CONTENT -->
 </div>
 
 
