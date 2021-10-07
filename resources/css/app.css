@@ -18,10 +18,11 @@ footer {
     background-color: #333333;
     width: 100%;
     /*margin-left: 120px;*/
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
 
 p.footer_text {
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 1%;
 }
