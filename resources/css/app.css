@@ -1,4 +1,11 @@
 h4, .studies {
     margin-top: 0;
+}
+
+h4 {
     margin-bottom: 10px;
+}
+
+.studies {
+    margin-bottom: 20px;
 }
