@@ -17,10 +17,10 @@ h3.edu {
 footer {
     background-color: #333333;
     width: 100%;
-    margin-left: 120px;
+    /*margin-left: 120px;*/
     padding-bottom: 1%;
 }
 
-.footer_text {
-    margin-left: 64px;
-}
+/*.footer_text {*/
+/*    margin-left: 64px;*/
+/*}*/
