@@ -26,7 +26,7 @@ body {
 
 @media only screen and (max-width: 1319px) {
     #button {
-        margin-left: 200px;
+        margin-left: 140px;
     }
 
     div#contact {
@@ -66,7 +66,7 @@ hr.full {
 
 @media only screen and (max-width: 1500px) {
     hr.full {
-        margin-left: 200px;
+        margin-left: 140px;
     }
 }
 
