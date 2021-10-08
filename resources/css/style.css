@@ -40,7 +40,7 @@ hr.full {
 
 @media only screen and (max-width: 1800px) {
     hr.full {
-        width: 200px;
+        width: 80%;
     }
 }
 
