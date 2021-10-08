@@ -1,9 +1,9 @@
 body {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
 }
 
 .w3-row-padding img {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 /* Set the width of the sidebar to 120px */
@@ -14,13 +14,13 @@ body {
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
 #main {
-    margin-left: 120px
+    margin-left: 120px;
 }
 
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
     #main {
-        margin-left: 0
+        margin-left: 0;
     }
 }
 
@@ -34,7 +34,7 @@ hr.short {
 
 hr.full {
     width: 100%;
-    margin-left: 120px
+    margin-left: 180px;
 }
 
 #work h3, #education h3 {
@@ -54,7 +54,7 @@ h4 {
 }
 
 h3.edu {
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 footer {
