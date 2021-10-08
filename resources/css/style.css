@@ -1,3 +1,42 @@
+body {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+
+#myNavbar div a {
+    width: 25% !important;
+}
+
+hr.short {
+    width: 200px;
+}
+
+hr.full {
+    width: 100%;
+    margin-left: 120px
+}
+
 #work h3, #education h3 {
     margin-top: 40px;
 }
