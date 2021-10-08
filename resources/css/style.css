@@ -38,6 +38,12 @@ hr.full {
     margin-right: auto;
 }
 
+@media only screen and (max-width: 1800px) {
+    hr.full {
+        width: 200px;
+    }
+}
+
 #work h3, #education h3 {
     margin-top: 40px;
 }
