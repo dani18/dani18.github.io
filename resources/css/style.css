@@ -24,6 +24,23 @@ body {
     }
 }
 
+@media only screen and (max-width: 1259px) {
+    #button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#contact {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 #myNavbar div a {
     width: 25% !important;
 }
