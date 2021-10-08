@@ -24,20 +24,17 @@ body {
     }
 }
 
-@media only screen and (max-width: 1259px) {
+@media only screen and (max-width: 1319px) {
     #button {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 200px;
     }
 
     div#contact {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 200px;
     }
 
     footer {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 200px;
     }
 }
 
