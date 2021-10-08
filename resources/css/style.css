@@ -64,6 +64,12 @@ hr.full {
     }
 }
 
+@media only screen and (max-width: 1500px) {
+    hr.full {
+        margin-left: 200px;
+    }
+}
+
 #work h3, #education h3 {
     margin-top: 40px;
 }
