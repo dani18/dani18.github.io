@@ -74,7 +74,7 @@ hr.full {
     margin-top: 40px;
 }
 
-h4, .studies {
+h4, .stdesc, .wkdesc {
     margin-top: 0;
 }
 
@@ -82,12 +82,22 @@ h4 {
     margin-bottom: 10px;
 }
 
-.studies {
+.mydesc {
+    font-size: 20px;
+}
+
+.studies, .wkdesc {
     margin-bottom: 25px;
+    font-size: 20px;
 }
 
 h3.edu {
     margin-bottom: 0;
+}
+
+.bars {
+    height: 28px;
+    width: 90%;
 }
 
 footer {
