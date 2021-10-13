@@ -97,7 +97,38 @@ h3.edu {
 
 .bars {
     height: 28px;
-    width: 90%;
+}
+
+.sl {
+    width: 75%;
+}
+
+.php {
+    width: 70%;
+}
+
+.jav {
+    width: 60%;
+}
+
+.js {
+    width: 45%;
+}
+
+.pyt {
+    width: 30%;
+}
+
+.spa {
+    width: 100%;
+}
+
+.cat {
+    width: 100%;
+}
+
+.eng {
+    width: 60%;
 }
 
 footer {
