@@ -17,6 +17,10 @@ body {
     margin-left: 120px;
 }
 
+header p {
+    font-size: 18px;
+}
+
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
     #main {
